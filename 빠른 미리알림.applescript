@@ -84,9 +84,7 @@ end if
 
 if noDate contains "yes" then
 	tell application "Reminders"
-		tell list "할 일"
 			make new reminder with properties {name:theReminder}
-		end tell
 		quit
 	end tell
 	set output to theReminder
@@ -127,9 +125,7 @@ else
 		end if
 	end if
 	tell application "Reminders"
-		tell list "할 일"
 			make new reminder with properties {name:theReminder, due date:DueDate}
-		end tell
 		quit
 	end tell
 	set output to theReminder & "
