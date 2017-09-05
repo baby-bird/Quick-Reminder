@@ -3,7 +3,7 @@
 본 코드는 **[원작자](https://github.com/jonathanwiesel/alfred-workflows/tree/master/Alfred%20v2%20Extensions/Remind%20Me)**의 코드를 참고해서 한국 지역설정에서도 동작하도록 바꾼 코드 입니다.
 # 빠른 미리알림 기능 설명
 본 Workflow를 실행하면 아래와 같은 창이 뜹니다.
-![입력창](https://www.dropbox.com/s/fafu8wkmun7xhhr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-12-17%20%EC%98%A4%EC%A0%84%2012.58.54.jpg?dl=1)
+![입력창](REMINDERS.jpg)
 
 여기에 할 일을 적으시고 구분자(;)를 사용해서 기한 및 시간을 적으시면 됩니다.
 
