@@ -31,7 +31,11 @@ try
 on error
 	set theHour to "none"
 end try
-
+try
+	set forAlert to item 4 of myList
+on error
+	set forAlert to "none"
+end try
 
 if queryDay contains "ø¿¥√" then
 	set theDay to day of (current date)
@@ -84,12 +88,13 @@ end if
 
 if noDate contains "yes" then
 	tell application "Reminders"
+		tell list "«“ ¿œ"
 			make new reminder with properties {name:theReminder}
+		end tell
 		quit
 	end tell
 	set output to theReminder
 else
-	
 	set stringedDate to theDate as string
 	if theHour does not contain "none" then
 		set stringedHour to theHour as string
@@ -124,10 +129,10 @@ else
 			set DueDate to date (stringedDate & " " & stringedHour)
 		end if
 	end if
-	tell application "Reminders"
-			make new reminder with properties {name:theReminder, due date:DueDate}
-		quit
-	end tell
-	set output to theReminder & "
-Due: " & DueDate
+	if forAlert contains "æÀ∑¡¡‡" then
+		set output to theReminder & "Alert: " & date (stringedDate & " " & stringedHour)
+	else
+		set output to theReminder & "
+		Due: " & DueDate
+	end if
 end if
