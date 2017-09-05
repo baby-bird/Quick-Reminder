@@ -50,5 +50,9 @@
 ## 팁
 서비스 단축키를 설정해서 언제 어디서나 단축키 한번에 기한이 있는 미리 알림을 만들 수 있습니다. ^+⌘+R 조합을 추천합니다. 
 
+# License
+MIT License. For more information, see LICENSE.
+
+
 
 
