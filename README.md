@@ -45,7 +45,7 @@
 ## 1. 접근 권한 문제
 최초 실행시 미리알림의 접근권한을 물어보는데 가볍게 승인을 누르시면 됩니다.
 ## 2. 알림 받기
-본 Workflow는 ‘알림’이 아닌 기한이 있는 목록을 빠르게 작성하기 위함입니다. ‘알림’을 받고 싶으시면 코드에서 <code>due date:DueDate</code> 부분에서 due date를 remind me date 로 바꿔주세요
+본 Workflow는 ‘알림’이 아닌 기한이 있는 목록을 빠르게 작성하기 위함입니다. ‘알림’을 받고 싶으시면 코드에서 <code>due date:DueDate</code> 부분에서 <code>due date</code>를 <code>remind me date</code> 로 바꿔주세요
 
 ## 팁
 서비스 단축키를 설정해서 언제 어디서나 단축키 한번에 기한이 있는 미리 알림을 만들 수 있습니다. ^+⌘+R 조합을 추천합니다. 
