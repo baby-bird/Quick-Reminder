@@ -1,6 +1,6 @@
 # 빠른 미리알림
 본  AppleScript는 MacOS의 기본 어플리케이션인 ‘미리알림’ 앱에 할 일을 빠르게 입력할 수 있는 Workflow 입니다.
-본 코드는 **[원작자](https://github.com/jonathanwiesel/alfred-workflows/tree/master/Alfred%20v2%20Extensions/Remind%20Me)**의 코드를 참고해서 한국 지역설정에서도 동작하도록 바꾼 코드 입니다.
+본 코드는 ** [원작자](https://github.com/jonathanwiesel/alfred-workflows/tree/master/Alfred%20v2%20Extensions/Remind%20Me) **의 코드를 참고해서 한국 지역설정에서도 동작하도록 바꾼 코드 입니다.
 # 빠른 미리알림 기능 설명
 본 Workflow를 실행하면 아래와 같은 창이 뜹니다.
 ![입력창](REMINDERS.jpg)
